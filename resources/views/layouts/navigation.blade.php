@@ -3,6 +3,7 @@
         <a class="ml-6 text-lg font-bold text-gray-800" href="{{ route('dashboard') }}"> Windmill </a>
 
         <ul class="mt-6">
+<li class="relative px-6 py-3"><a href="{{ route('gdpr.index') }}">Privacy checks</a></li>
             @hasanyrole('admin|agent')
                 <li class="relative px-6 py-3">
                     <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">

@@ -25,6 +25,7 @@
             Windmill
         </a>
         <ul class="mt-6">
+<li class="relative px-6 py-3"><a href="{{ route('gdpr.index') }}">Privacy checks</a></li>
             @hasanyrole('admin|agent')
                 <li class="relative px-6 py-3">
                     <x-responsive-nav-link :active="request()->routeIs('dashboard')">

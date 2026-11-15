@@ -20,6 +20,11 @@
             </svg>
         </button>
 
+        <a href="{{ route('gdpr.index') }}" data-gdpr-entry="header"
+           class="inline-flex items-center px-4 py-2 mr-4 text-sm font-semibold text-white bg-purple-600 rounded-lg hover:bg-purple-700 focus:outline-none">
+            Privacy checks
+        </a>
+
         <x-dropdown>
             <x-slot name="trigger">
                 <button

@@ -1,0 +1,1 @@
+Unmodified PHP GDPR router and eleven Rego modules copied from https://github.com/CS-UCY-SEIT-lab/PrivacyLib-REGO. Host-specific authentication, validation, consent persistence and owner-scoped ticket/message mapping are implemented separately in app/Http/Controllers/GdprController.php.
