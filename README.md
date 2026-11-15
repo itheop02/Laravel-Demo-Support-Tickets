@@ -23,3 +23,8 @@ A few screenshots:
 - Run __npm run build__ or __npm run dev__ - whichever you prefer
 - That's it: launch the main URL.
 - You can register as regular user or login as admin to manage data with default credentials __admin@admin.com__ - __password__
+
+
+## PrivacyLib integration preparation
+
+Original GDPR framework: **[PrivacyLib-REGO](https://github.com/CS-UCY-SEIT-lab/PrivacyLib-REGO)**. This fork is being prepared to test its PHP router and OPA/Rego policies against the existing support-ticket application. The original seeded demo login and dummy-email registration work without an email-verification step. GDPR integration has not been implemented yet.
